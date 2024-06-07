@@ -500,7 +500,7 @@ print('0' > '1')
 
    输出结果为：
 
-   <img src="/Users/yangsai/Library/Application Support/typora-user-images/image-20240607001218127.png" alt="image-20240607001218127" style="zoom:50%;" />
+   <img src="/Users/yangsai/Library/Application Support/typora-user-images/image-20240607001218127.png" alt="image-20240607001218127" style="zoom:50 %;" />
 
    诶，这输出的都是什么牛马？别急，哼，白马，定叫他有来无回！
 
@@ -509,10 +509,3 @@ print('0' > '1')
    > 代码 `sl.find("beijing", 3)` 指定了额外的参数 `3`，代表从字符串的第 3 个字符 (索引为 2) 开始查找。因此，函数会找到第二个 "beijing" ，并返回它的位置，也就是 `22` (索引为 21)。
    >
    > 代码 `sl.find("beijing", 3, 20)` 不仅指定了子串，还限定了搜索的范围。函数只会在索引为 3 到 19 (一共 17 个字符) 的范围内查找 "beijing"。由于 "beijing" 不在这个范围内，所以函数会返回 `-1` 表示没找到。
-
-# 矩阵
-
-## 定义
-
-
-
