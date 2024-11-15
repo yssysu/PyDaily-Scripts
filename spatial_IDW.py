@@ -143,7 +143,7 @@ class OzoneModel3D:
         self.plot_3d_model()
 
 if __name__ == '__main__':
-    model = OzoneModel3D('CA_cities_wgs1984.shp', 'point_wgs1984.shp')
+    model = OzoneModel3D('spatial/CA_cities_wgs1984.shp', 'spatial/point_wgs1984.shp')
     p = int(input('请输入幂的值：'))
     model.run(p, 'IDW_OZONE.xlsx')
 
